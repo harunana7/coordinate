@@ -11,7 +11,6 @@
 
   <div class="field">
     <%= f.label :catch_copy, "スタイル" %><br />
-    <%# <%= f.text_area :catch_copy, class: :form__text %>
      <%= f.collection_select(:style_id, Style.all, :id, :name, {}, {class:"select-box", id:"coordinate-style"}) %>
   </div>
 
