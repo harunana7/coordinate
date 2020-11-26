@@ -38,8 +38,8 @@ a {
 
 .header {
   background-color: #f1f8fe;
-  margin-bottom: 34px;
-  padding: 30px 0;
+  margin-bottom: 32px;
+  padding: 22px 0;
   background-color: #cc9999;
 
 }
@@ -164,6 +164,16 @@ a {
 .greeting__link{
   text-decoration: underline;
 }
+
+.item-contents>.title {
+  font-size: 4vh;
+  line-height: 1.4;
+  font-weight: normal;
+  text-align : center;
+  background-color: #cc9999;
+  color:#ffffff;
+}
+
 .page-heading {
   font-size: 30px;
   margin-bottom: 28px;
@@ -175,6 +185,7 @@ a {
   align-items: center;
   min-height: calc(100vh - 161px);
   padding: 40px;
+  margin: 10px 70px 10px;
 }
 .card {
   width: calc((100% - 50px) / 3);
