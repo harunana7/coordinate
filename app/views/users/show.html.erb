@@ -1,0 +1,27 @@
+<div class="main">
+  <div class="inner">
+    <div class="user__wrapper">
+      <h3 class="page-heading">
+        <%= "#{@user.nickname}さんの情報"%>
+      </h3>
+      <table class="table">
+        <tbody>
+          <tr>
+            <th class="table__col1">名前</th>
+            <td class="table__col2"><%= @user.nickname %></td>
+          </tr>
+          <tr>
+            <th class="table__col1">プロフィール</th>
+            <td class="table__col2"><%= @user.profile %></td>
+          </tr>
+        </tbody>
+      </table>
+      <h3 class="page-heading">
+        <%= "#{@user.nickname}さんのコーディネート"%>
+      </h3>
+      <div class="user__card">
+        <%= render partial: 'coordinates/coordinate', collection: @user.coordinates %>
+      </div>
+    </div>
+  </div>
+</div>

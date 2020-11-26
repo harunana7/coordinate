@@ -1,0 +1,23 @@
+<main class="main">
+  <div class="title-contents">
+    <h2 class="service-title">
+      ファッションを楽しもう
+    </h2>
+    <p class="service-explain">
+      Today's Coordinateは
+    </p>
+    <p class="service-explain">
+      〜ためのアプリです
+    </p>
+  </div>
+  <% if user_signed_in? %>
+  <div class="greeting">
+    log in name:
+    <%= link_to current_user.nickname, user_path(current_user), class: :greeting__link %>
+  </div>
+  <%end%>
+    
+<div class="card__wrapper">
+  <%= render partial: 'coordinates/coordinate', collection: @coordinates %>
+</div>
+</main>

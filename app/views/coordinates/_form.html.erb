@@ -1,0 +1,26 @@
+<%= form_with model: coordinate, local: true do |f|%>
+  <div class="field">
+    <%= f.label :title, "title" %><br />
+    <%= f.text_field :title %>
+  </div>
+
+  <div class="field">
+    <%= f.label :concept, "コンセプト" %><br />
+    <%= f.text_area :concept, class: :form__text %>
+  </div>
+
+  <div class="field">
+    <%= f.label :catch_copy, "style" %><br />
+    <%# <%= f.text_area :catch_copy, class: :form__text %>
+     <%= f.collection_select(:style_id, Style.all, :id, :name, {}, {class:"select-box", id:"coordinate-style"}) %>
+  </div>
+
+  <div class="field">
+    <%= f.label :image, "画像" %><br />
+    <%= f.file_field :image %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit "保存する", class: :form__btn  %>
+  </div>
+<% end %>

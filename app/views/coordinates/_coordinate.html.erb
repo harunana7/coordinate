@@ -1,0 +1,10 @@
+<div class="card">
+  <%= link_to image_tag(coordinate.image, class: "card__img"), coordinate_path(coordinate) %>
+  <div class="card__body">
+    <%= link_to coordinate.title, coordinate_path(coordinate), class: :card__title%>
+    <p class="card__summary">
+      <%= link_to coordinate.style.name, coordinate_path(coordinate)%>
+    </p>
+  <%= link_to coordinate.user.nickname, user_path(coordinate.user), class: "card__user"%>
+  </div>
+</div>
