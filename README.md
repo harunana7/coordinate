@@ -3,6 +3,23 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
+## アプリ名
+
+「Today's coordinate」
+ファッションコーディネートの写真を投稿出来るアプリです。
+
+## 機能
+・投稿画像一覧表示機能
+・ユーザー管理機能
+・写真投稿機能
+・画像詳細画面
+・投稿編集・削除機能
+・ユーザー詳細画面
+・コメント機能
+
+## URL
+https://coordinate-31044.herokuapp.com/
+
 # DB 設計
 
 ## users table
