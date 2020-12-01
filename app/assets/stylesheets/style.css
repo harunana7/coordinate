@@ -129,8 +129,8 @@ a {
 
 .title-contents {
   width: 100vw;
-  background-image: url('coordinate-header.png');
-  /* background-image: image-url(<%= asset_path 'coordinate-header.png' %>) */
+  /* background-image: url('coordinate-header.png'); */
+  background-image: image-url('coordinate-header.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
