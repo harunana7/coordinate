@@ -1,0 +1,31 @@
+/* .inner{
+	
+}
+
+.nav{
+	display:flex;
+	justify-content: space-between;
+	padding: 0 100px;
+}
+
+.nav__right{
+	margin-top: 50px;
+	margin-right: 80px;
+}
+
+
+
+.title-contents {
+  width: 100vw;
+  background-image: url('p4430_Fotor.bmp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: vh 15vw;
+  color: #fff;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+} */
