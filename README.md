@@ -1,8 +1,5 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
 ![6E553F09-5FC4-4EC6-9CD2-5AFFD780DC2F](https://user-images.githubusercontent.com/72502308/102224869-d41fe080-3f29-11eb-8a50-4571af4fb325.gif)
 
 <h2 align = "center">Today's coordinate</h2>
@@ -20,7 +17,35 @@ GitURL：https://github.com/harunana7/coordinate
 <h3 align="center">- POST -</h3>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/72502308/102232186-26fd9600-3f32-11eb-880a-4cfbaaa4ca32.gif" width=40%>
+  <img src="https://user-images.githubusercontent.com/72502308/102232186-26fd9600-3f32-11eb-880a-4cfbaaa4ca32.gif" width=50%>
+</p>
+
+<p align="center">
+	  <img src="https://user-images.githubusercontent.com/72502308/102236467-e6544b80-3f36-11eb-8f30-48f94e8e6053.gif" width=50%>
+</p>
+
+<h3 align="center">- comments -</h3>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/72502308/102237289-ddb04500-3f37-11eb-8699-b985a8e57007.gif" width=50%>
+</p>
+
+<h3 align="center">- User Authentication -</h3>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/72502308/102237014-84481600-3f37-11eb-8e24-33eefef1107a.gif" width=50%>
+</p>
+
+<h3 align="center">- User details -</h3>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/72502308/102237200-bbb6c280-3f37-11eb-977a-c309883fbedd.gif" width=50%>
+</p>
+
+<h3 align="center">- Style Choice -</h3>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/72502308/102237414-fe789a80-3f37-11eb-90b4-aba3f6688919.gif" width=50%>
 </p>
 
 ## アプリ名
