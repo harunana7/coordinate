@@ -3,6 +3,26 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
+![6E553F09-5FC4-4EC6-9CD2-5AFFD780DC2F](https://user-images.githubusercontent.com/72502308/102224869-d41fe080-3f29-11eb-8a50-4571af4fb325.gif)
+
+<h2 align = "center">Today's coordinate</h2>
+
+## 🌐 App URL
+https://coordinate-31044.herokuapp.com/
+
+## 💬 Usage
+Poster Email adress：nana@nanana
+PosterPASS：aaaaaa1
+GitURL：https://github.com/harunana7/coordinate
+
+## 📦 Features
+
+<h3 align="center">- POST -</h3>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/72502308/102232186-26fd9600-3f32-11eb-880a-4cfbaaa4ca32.gif" width=40%>
+</p>
+
 ## アプリ名
 
 「Today's coordinate」
@@ -17,8 +37,6 @@ application up and running.
 ・ユーザー詳細画面
 ・コメント機能
 
-## URL
-https://coordinate-31044.herokuapp.com/
 
 # DB 設計
 
